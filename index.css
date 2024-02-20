@@ -1,0 +1,38 @@
+body {
+    background-color: bisque;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    align-items: center;
+    min-width: 440px;
+}
+
+h1, h2, p, a{
+    font-family: "Open Sans", sans-serif;
+}
+p {
+    text-align: justify;
+}
+
+a{  
+    display: flex;
+    text-decoration: none;
+    background-color:brown;
+    height: 40px;
+    width: 180px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+img {
+    border-radius: 15px;
+}
